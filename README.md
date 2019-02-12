@@ -2,7 +2,7 @@
 
 ## Installation 
 
-The recommended way to install the library is through [Composer][https://getcomposer.org]:
+The recommended way to install the library is through [Composer](https://getcomposer.org):
 
 ```bash
 $ composer require whacking1234/sumlib:@dev
