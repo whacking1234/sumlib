@@ -1,0 +1,22 @@
+{
+  "name": "whacking1234/sumlib",
+  "description": "This package implements the function of adding large numbers via custom algorythm",
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "ext-bcmath": "*",
+    "phpunit/phpunit": "5.x"
+  },
+  "suggest": {
+    "ext-bcmath": "For sum function testing"
+  },
+  "autoload": {
+    "files": [
+      "src/functions/sum.php"
+    ],
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
