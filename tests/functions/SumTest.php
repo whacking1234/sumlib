@@ -4,9 +4,10 @@ declare(strict_types=1);
 
 namespace Tests\functions;
 
+use PHPUnit\Framework\TestCase;
 use function Whacking1234\functions\sum;
 
-class SumTest extends \PHPUnit\Framework\TestCase
+class SumTest extends TestCase
 {
     /**
      * @dataProvider testSumProvider
